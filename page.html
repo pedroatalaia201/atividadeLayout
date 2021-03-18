@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="page.css">
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade01-Layout de Chat</title>
+</head>
+<body>
+    <div class="User">
+        <div id="perfil">
+            <img id="UsuarioPrincipal"  src="images/User Photo.png" alt="perfil">
+            <h1>Henry Jabbawockiez</h1>
+            <img id="Down" src="images/feather-icon/chevron-down.png">
+        </div>
+
+        <div id="home">
+            <img id="grid" src="images/Icon/Outline/grid.png">
+            <h4 id="opcao1">HOME</h4>
+        </div>
+
+        <div id="chat">
+            <img id="iconChat" src="images/Icon Chat.png">
+            <h4 id="opcao2">CHAT</h4>
+        </div>
+
+        <div id="contact">
+            <img id="bell" src="images/Icon/Outline/bell.png">
+            <h4 id="opcao3">CONTACT</h4>
+        </div>
+
+        <div id="notification">
+            <img id="person" src="images/Icon/Outline/person.png">
+            <h4 id="opcao4">NOTIFICATIONS</h4>
+        </div>
+
+        <div id="agenda">
+            <img id="calendar" src="images/Icon/Outline/calendar.png">
+            <h4 id="opcao5">CALENDAR</h4>
+        </div>
+
+        <div id="config">
+            <img id="settings" src="images/Icon/Outline/settings-2.png">
+            <h4 id="opcao6">SETTINGS</h4>
+        </div>
+
+        <div id="sair">
+            <img id="power" src="images/Icon/Outline/power.png">
+            <h4 id="opcao7">LOG OUT</h4>
+        </div>
+    </div>
+    <!-- Bloco das conversas -->
+    <div class="Background">
+        <div class="Chats">
+            <h1 id="chats">Chats</h1>
+            <h4 id="recentChats">Recent chats</h4>
+            <img id="recentDown" src="images/feather-icon/chevron-down-1.png">
+        </div>
+
+        <div class="CreateNewChat">
+            <img id="plus" src="images/Icon/Outline/plus.png">
+            <h3 id="newChat">Create New Chat</h3>
+        </div>
+
+        <div class="SearchBar">
+           <img id="lupa" src="images/Icon/Outline/search.png">
+            <h3 id="search">Search</h3>
+
+            <div id="separa"></div>
+
+            <h3 id="mensagem">Messages</h3> 
+            <img id="mensageDown" src="images/feather-icon/chevron-down-1.png">
+        </div>
+
+        <div class="MessageLuy">
+            <img id="luyPerfil" src="images/Mask Group-3.png">
+            <h3 id="luyName">Luy Robin</h3>
+            <h5 id="time">1 min atrás</h5>
+            <img id="group" src="images/Group 5.png">
+            <h5 id="write">writes</h5>
+
+            <div class="text1">
+                <p id="text1-p" style="color: white;">
+                    Most of its text is made up from sections 1.10.32–3 of Cicero's
+                    De finibus bonorum et malorum (On the Boundaries of Goods and Evils; 
+                    finibus may also be translated as purposes).
+                </p>
+            </div>
+            
+            <div id="notification1">
+                <h3 id="two">2</h3>
+            </div>
+        </div>
+
+        <div class="MessageJared">
+            <img id="jaredPerfil" src="images/Mask Group-2.png">
+            <h3 id="jaredName">Jared Sunn</h3>
+            <h5 id="time2">1 min atrás</h5>
+            <img id="group-2" src="images/Group 5.png">
+            <h5 id="write2">records voice message</h5>
+
+            <img id="micro" src="images/Icon/Outline/mic.png">
+            <h5 id="voice">Voice message (01:15)</h5>
+
+            <div class="file">
+                <img id="file" src="images/Icon/Outline/file-text.png">
+                <h4 id="fileItem">File (x2)</h4>
+            </div>
+
+            <div class="photo">
+                <img id="photo" src="images/Icon/Outline/image.png">
+                <h4 id="photoItem">Photo</h4>
+            </div>
+
+            <div id="notification2">
+                <h3 id="one">1</h3>
+            </div>
+        </div>
+
+        <div class="MessageNika">
+            <img id="nikaPerfil" src="images/Mask Group-1.png">
+            <h3 id="nikaName">Nika Jerrardo</h3>
+            <h5 id="time3">3 days ago</h5>
+            <h5 id="lastOnline">last online 5 hours ago</h5>
+
+            <div class="text2">
+               <p id="text2-p">
+                    Cicero famously orated against his political 
+                    opponent Lucius Sergius Catilina.
+                </p> 
+            </div>
+
+            <div class="notification3">
+                <h3 id="twoAgain">2</h3>
+            </div>
+        </div>
+
+        <div class="MessageDavid">
+            <img id="davidPerfil" src="images/Mask Group.png">
+            <h3 id="davidName">David Amrosa</h3>
+            <h5 id="time4">3 days ago</h5>
+            <h5 id="lastOnline2">lasr online 5 hours ago</h5>
+
+            <div class="text3">
+                <p id="text3-p">
+                    Cicero famously orated against his political 
+                    opponent Lucius Sergius Catilina.
+                </p>
+            </div>
+
+            <div class="video">
+                <img id="videoIcon" src="images/Icon/Outline/film.png">
+                <h4 id="videoFile">Video (3x)</h4>
+            </div>
+
+            <div class="notification4">
+                <h3 id="note4">2</h3>
+            </div>
+        </div>
+    </div>
+
+    <!--
+        Conversa com Nika
+    -->
+    <div class="ChatWithNika">
+        <div class="nikaChat">
+            <img id="nikaPerfilChat" src="images/Mask Group-1.png">
+            <h3 id="nikaChatName">Nika Jerrardo</h3>
+            <h5 id="chatLastOnline">last online 5 hours ago</h5>
+
+            <div id="botom1">
+                <img id="anexo" src="images/Icon/Outline/attach-2.png">
+            </div>
+            
+            <div id="botom2">
+                 <img id="maisOpcoes" src="images/Icon/Outline/more-vertical.png">
+            </div>
+
+            <div class="separa2"></div>
+
+            <img id="nikaPerfil2" src="images/Mask Group-1.png">
+            <div id="message-1">
+                <p id="nikaText-1">
+                     Hello! Finally found the time to write to you! 
+                    I need your help in creating interactive 
+                    animations for my mobile application.
+                </p>
+            </div>
+            <div id="message-2">
+                <p id="nikaText-2">
+                     Can I send you files?
+                </p>
+            </div>
+            <h5 id="messageSend">4 days ago</h5>
+
+            <div id="yourMessage">
+                <p id="your-1">
+                    Hey! Okay, send out.
+                </p>
+            </div>
+            <h5 id="messageSend2">4 days ago</h5>
+
+            <img id="nikaPerfil3" src="images/Mask Group-1.png">
+            <div id="message-3">
+                <div id="styleFile">
+                    <img id="style" src="images/Icon/Outline/file-1.png">
+                </div>
+                <h3 id="styleZip">Style.zip</h3>
+                <h4 id="sizeFile">41.36 Mb</h4>
+            </div>
+            <h5 id="messageSend3">4 days ago</h5>
+
+            <div class="separa2-5"></div>
+            <h5 id="timePass">3 days ago</h5>
+            <div class="separa3"></div>
+
+            <div id="yourMessage2">
+                <p id="your-2">
+                    Hello! I tweaked everything you asked. 
+                    I am sending the finished file.
+                </p>
+                <h3 id="newStyle">(52.05 Mb) New_Style.zip </h3>
+                <img id="youAsk" src="images/Icon/Outline/file-2.png">
+            </div>
+            <h5 id="messageSend4">3 days ago</h5>
+
+            <div class="type"></div>
+            <h4 id="messageHere">Type a message here</h4>
+
+            <img id="smileFace" src="images/Smile icon.png">
+
+            <div id="sendIcon">
+                <img id="send" src="images/Icon/Fill/navigation-2.png">
+            </div>
+
+            <div id="typePlus">
+                <img id="plus2" src="images/Icon/Outline/plus.png">
+            </div>
+
+            <div id="anexarArquivo">
+                <img id="arquivo" src="images/Icon/Outline/file.png">
+            </div>
+
+            <div id="anexarImagem">
+                <img id="imagem" src="images/Icon/Outline/image-1.png">
+            </div>
+
+            <div id="anexarVideo">
+                <img id="videoAnexo" src="images/Icon/Outline/film-1.png">
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

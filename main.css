@@ -1,0 +1,1097 @@
+
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+}
+/*Bloco do usuário*/
+.User{
+    position: fixed;
+    background-color: rgb(22, 21, 21);
+    margin: 0px;
+    width: 250px;
+    height: 720px;
+}
+
+#UsuarioPrincipal{
+    width: 80px;
+    height: 80px;
+    
+    position: absolute;
+    left: 100px;
+    top: 36px;
+}
+h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+
+    position: absolute;
+    top: 116px;
+    left: 40px;
+}
+
+#Down{
+    position: relative;
+    top: 130px;
+    left: 215px;
+    
+    width: 9,5px;
+    height: 4,75px;
+}
+
+#grid{
+    position: absolute;
+    top: 190px;
+    left: 50px;
+
+    width: 24px;
+    height: 24px;
+}
+
+h4{
+    color: #707C97;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#opcao1{
+    position: absolute;
+    top: 173px;
+    left: 80px;
+}
+
+#iconChat{
+    position: absolute;
+    top: 234px;
+    left: 50px;
+
+    width: 24px;
+    height: 24px;
+}
+#opcao2{
+    position: absolute;
+    top: 220px;
+    left: 80px;
+
+    color: #186CB9;
+}
+
+#person{
+    position: absolute;
+    top:278px;
+    left: 50px;
+
+    width: 24px;
+    height: 24px;
+}
+#opcao3{
+    position: absolute;
+    top: 265px;
+    left: 80px;
+}
+
+#bell{
+    position: absolute;
+    top: 324px;
+    left: 50px;
+
+    width: 24px;
+    height: 24px;
+}
+#opcao4{
+    position: absolute;
+    top:311px;
+    left: 80px;
+}
+
+#calendar{
+    position: absolute;
+    top: 370px;
+    left: 50px;
+
+    width: 24px;
+    height: 24px;
+}
+#opcao5{
+    position: absolute;
+    top: 357px;
+    left: 80px;
+}
+
+#settings{
+    position: absolute;
+    top: 418px;
+    left: 50px;
+
+    width: 24px;
+    height: 24px;
+}
+#opcao6{
+    position: absolute;
+    top:403px;
+    left: 80px;
+}
+
+#power{
+    position: absolute;
+    top: 620px;
+    left:50px;
+
+    width: 24px;
+    height: 24px;
+}
+#opcao7{
+    position: absolute;
+    top: 605px;
+    left: 80px;
+}
+
+/*Bloco 'chats'*/
+
+#chats{
+    position:absolute;
+    top: 40px;
+    left: 300px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    /*font-weight: bold;*/
+    font-size: 25px;
+}
+#recentChats{
+    position: absolute;
+    top: 75px;
+    left: 300px;
+
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 11px;
+}
+#recentDown{
+    position: absolute;
+    top: 90px;
+    left: 390px;
+
+    width: 15px;
+    height: 15px;
+}
+
+.CreateNewChat{
+    position: absolute;
+    top: 50px;
+    left: 520px;
+
+    display: flex;
+    background-color: #1394B0;
+    border-radius: 8px;
+
+    width: 220px;
+    height: 55px;
+}
+#plus{
+    position: relative;
+    top: 16px;
+    left: 13px;
+
+    width: 24px;
+    height: 24px;
+}
+#newChat{
+    position: relative;
+    top: 01px;
+    left: 30px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    color: white;
+}
+
+.SearchBar{
+    position: absolute;
+    top: 130px;
+    left: 300px;
+
+    background-color:  rgb(22, 21, 21);
+    width: 440px;
+    height: 50px;
+    border-radius: 8px;
+}
+#lupa{
+    position: absolute;
+    top: 10px;
+    left: 13px;
+
+    width: 30px;
+    height: 30px;
+}
+#search{
+    position: absolute;
+    top: 1px;
+    left: 53px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    color: #707C97;
+}
+
+#separa{
+    position: absolute;
+    top: 0px;
+    left: 320px;
+
+    width: 3px;
+    height: 50px;
+
+    background-color: rgb(0, 0, 0);
+}
+#mensagem{
+    position: absolute;
+    top: 0px;
+    left: 330px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    color: #707C97;
+}
+#mensageDown{
+    position: absolute;
+    top: 17px;
+    left: 410px;
+
+    width: 15px;
+    height: 15px;
+}
+
+.MessageLuy{
+    position: absolute;
+    top: 200px;
+    left: 300px;
+
+    background-color: rgb(22, 21, 21);
+    width: 440px;
+    height: 195px;
+    border-radius: 8px;
+}
+#luyPerfil{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    width: 45px;
+    height: 45px;
+}
+#luyName{
+    position: absolute;
+    top: -2px;
+    left: 70px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    color: white;
+}
+#time{
+    position: absolute;
+    top: 03px;
+    left: 350px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #707C97;
+}
+#group{
+    position: absolute;
+    top: 43px;
+    left: 70px;
+}
+#write{
+    position: absolute;
+    top: 15px;
+    left: 97px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #1394B0;
+}
+.text1{
+    position: absolute;
+    top: 80px;
+    left: 10px;
+
+    /*background-color: #1394B0;*/
+    width: 380px;
+    height: 130px;
+    margin: 0px;
+}
+#text1-p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+}
+#notification1{
+    position: absolute;
+    top: 100px;
+    left: 395px;
+
+    background-color: #FF3366;
+    width: 24px;
+    height: 24px;
+    border-radius: 50px;
+}
+#two{
+    position: absolute;
+    top: -18px;
+    left: 7px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: white;
+}
+
+.MessageJared{
+    position: absolute;
+    top: 410px;
+    left: 300px;
+
+    background-color: rgb(22, 21, 21);
+    width: 440px;
+    height: 175px;
+    border-radius: 8px;
+}
+#jaredPerfil{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    width: 45px;
+    height: 45px;
+}
+#jaredName{
+    position: absolute;
+    top: -2px;
+    left: 70px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    color: white;
+}
+#time2{
+    position: absolute;
+    top: 03px;
+    left: 350px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #707C97;
+}
+#group-2{
+    position: absolute;
+    top: 43px;
+    left: 70px;
+}
+#write2{
+    position: absolute;
+    top: 15px;
+    left: 97px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #1394B0;
+}
+#micro{
+    position: absolute;
+    top: 70px;
+    left: 10px;
+}
+#voice{
+    position: absolute;
+    top: 48px;
+    left: 33px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #707C97;
+}
+.file{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+
+    width: 110px;
+    height: 40px;
+   /* background-color: #4c8cd1;*/
+    background:  rgba(42, 139, 242, 0.25);;
+    border-radius: 20px;
+}
+#file{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+#fileItem{
+    position: absolute;
+    top: -7px;
+    left: 37px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #4c8cd1;
+}
+
+.photo{
+    position: absolute;
+    top: 100px;
+    left: 140px;
+
+    width: 110px;
+    height: 40px;
+    background: rgba(255, 51, 102, 0.25);
+    border-radius: 20px;
+}
+#photo{
+    position: absolute;
+    top: 10px;
+    left: 12px;
+}
+#photoItem{
+    position: absolute;
+    top: -7px;
+    left: 37px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #FF3366;
+}
+#notification2{
+    position: absolute;
+    top: 100px;
+    left: 395px;
+
+    background-color: #FF3366;
+    width: 24px;
+    height: 24px;
+    border-radius: 50px;
+}
+#one{
+    position: absolute;
+    top: -18px;
+    left: 7px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: white;
+}
+
+.MessageNika{
+    position: absolute;
+    top: 600px;
+    left: 300px;
+
+    background-color: #276fbd;
+    width: 440px;
+    height: 170px;
+    border-radius: 8px;
+}
+#nikaPerfil{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    width: 45px;
+    height: 45px;
+}
+#nikaName{
+    position: absolute;
+    top: -2px;
+    left: 70px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    color: white;
+}
+#time3{
+    position: absolute;
+    top: 03px;
+    left: 350px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: white;
+}
+#lastOnline{
+    position: absolute;
+    top: 15px;
+    left: 70px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: white;
+}
+.text2{
+    position: absolute;
+    top: 80px;
+    left: 10px;
+
+    width: 380px;
+    height: 130px;
+    margin: 0px;
+}
+#text2-p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    color: white;
+}
+.notification3{
+    position: absolute;
+    top: 100px;
+    left: 395px;
+
+    background-color: #FF3366;
+    width: 24px;
+    height: 24px;
+    border-radius: 50px;
+}
+#twoAgain{
+    position: absolute;
+    top: -18px;
+    left: 7px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: white;
+}
+
+.MessageDavid{
+    position: absolute;
+    top: 785px;
+    left: 300px;
+
+    background-color: rgb(22, 21, 21);
+    width: 440px;
+    height: 220px;
+    border-radius: 8px;
+}
+#davidPerfil{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    width: 45px;
+    height: 45px;
+}
+#davidName{
+    position: absolute;
+    top: -2px;
+    left: 70px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    color: white;
+}
+#time4{
+    position: absolute;
+    top: 03px;
+    left: 350px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #707C97;
+}
+#lastOnline2{
+    position: absolute;
+    top: 15px;
+    left: 70px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #4c8cd1;
+}
+.text3{
+    position: absolute;
+    top: 80px;
+    left: 10px;
+
+    width: 380px;
+    height: 130px;
+    margin: 0px;
+}
+#text3-p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    color: white;
+}
+.video{
+    position: absolute;
+    top: 150px;
+    left: 10px;
+
+    width: 120px;
+    height: 40px;
+    background: rgba(0, 195, 5, 0.25);;
+    border-radius: 20px;
+}
+#videoIcon{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#videoFile{
+    position: absolute;
+    top: -7px;
+    left: 35px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #00C305;
+}
+.notification4{
+    position: absolute;
+    top: 100px;
+    left: 395px;
+
+    background-color: #FF3366;
+    width: 24px;
+    height: 24px;
+    border-radius: 50px;
+}
+#note4{
+    position: absolute;
+    top: -18px;
+    left: 7px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: white;
+}
+
+/*Conversa com Nika*/
+.nikaChat{
+    position: absolute;
+    top: 50px;
+    left: 770px;
+
+    background-color: rgb(22, 21, 21);
+    width: 500px;
+    height: 720px;
+    border-radius: 8px;
+}
+#nikaPerfilChat{
+    position: absolute;
+    top: 17px;
+    left: 25px;
+
+    width: 44px;
+    height: 44px;
+}
+#nikaChatName{
+    position: absolute;
+    top: 07px;
+    left: 83px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: white;
+    
+    /*
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-transform: capitalize;
+    */
+}
+#chatLastOnline{
+    position: absolute;
+    top: 23px;
+    left: 83px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #1394B0;
+}
+#anexo{
+    position: absolute;
+    top: 27px;
+    left: 400px;
+
+    width: 24px;
+    height: 24px;
+}
+#maisOpcoes{
+    position: absolute;
+    top: 27px;
+    left: 440px;
+
+    width: 24px;
+    height: 24px;
+}
+.separa2{
+    position: absolute;
+    top: 80px;
+
+    background-color: rgb(0, 0, 0);
+    width: 500px;
+    height: 02px;
+}
+#nikaPerfil2{
+    position: absolute;
+    top: 110px;
+    left: 25px;
+
+    width: 36px;
+    height: 36px;
+}
+#message-1{
+    position: absolute;
+    top: 110px;
+    left: 75px;
+
+    width: 350px;
+    height: 75px;
+
+    background-color: #098caa;
+    border-radius: 0px 8px 8px 8px;
+}
+#nikaText-1{
+    position: absolute;
+    top: 10px;
+
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: white;
+}
+#message-2{
+    position: absolute;
+    top: 195px;
+    left: 75px;
+
+    width: 150px;
+    height: 40px;
+
+    background-color: #098caa;
+    border-radius: 0px 8px 8px 8px;
+}
+#nikaText-2{
+    position: absolute;
+    top: 01px;
+    left: 10px;
+
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: white;
+}
+#messageSend{
+    position: absolute;
+    top: 217px;
+    left: 160px;
+
+    font-family: 'Roboto', sans-serif;
+    color: #707C97;
+}
+
+#yourMessage{
+    position: absolute;
+    top: 270px;
+    left: 290px;
+
+    width: 150px;
+    height: 40px;
+
+    background-color: rgb(34, 33, 33);
+    border-radius: 8px 0px 8px 8px;
+    border: 1px solid #1394B0;
+}
+#your-1{
+    position: absolute;
+    top: 01px;
+    left: 10px;
+
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: white;
+}
+#messageSend2{
+    position: absolute;
+    top: 295px;
+    left: 350px;
+
+    font-family: 'Roboto', sans-serif;
+    color: #707C97;
+}
+
+#nikaPerfil3{
+    position: absolute;
+    top: 340px;
+    left: 25px;
+
+    width: 36px;
+    height: 36px; 
+}
+#message-3{
+    position: absolute;
+    top: 340px;
+    left: 75px;
+
+    width: 160px;
+    height: 80px;
+
+    background-color: #098caa;
+    border-radius: 0px 8px 8px 8px;
+}
+#styleFile{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+
+    width: 35px;
+    height: 35px;
+
+    background-color: rgba(5, 247, 255, 0.452);
+    border-radius: 8px;
+}
+#style{
+    position: absolute;
+    top: 5px;
+    left: 6px;
+}
+#styleZip{
+    position: absolute;
+    top: 10px;
+    left: 70px;
+
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: white;
+}
+#sizeFile{
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #a9b4cf;
+}
+#messageSend3{
+    position: absolute;
+    top: 400px;
+    left: 160px;
+
+    font-family: 'Roboto', sans-serif;
+    color: #707C97;
+}
+
+.separa2-5{
+    position: absolute;
+    top: 463px;
+
+    width: 200px;
+    height: 1px;
+
+    background-color: #707C97;
+}
+#timePass{
+    position: absolute;
+    top: 435px;
+    left: 215px;
+
+
+    font-family: 'Roboto', sans-serif;
+    color: #707C97;
+}
+.separa3{
+    position: absolute;
+    top: 463px;
+    left: 300px;
+
+    width: 200px;
+    height: 1px;
+
+    background-color: #707C97;
+}
+
+#yourMessage2{
+    position: absolute;
+    top: 490px;
+    left: 107px;
+
+    width: 335px;
+    height: 85px;
+
+    background-color: rgb(34, 33, 33);
+    border-radius: 8px 0px 8px 8px;
+    border: 1px solid #1394B0;
+}
+#your-2{
+    position: absolute;
+    top: 01px;
+    left: 10px;
+
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: white;
+}
+#newStyle{
+    position: absolute;
+    top: 43px;
+    left: 140px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #098caa;
+}
+#youAsk{
+    position: absolute;
+    top: 50px;
+    left: 285px;
+}
+#messageSend4{
+    position: absolute;
+    top: 560px;
+    left: 345px;
+
+    font-family: 'Roboto', sans-serif;
+    color: #707C97;
+}
+
+.type{
+    position: absolute;
+    top: 680px;
+    left: 35px;
+
+    width: 430px;
+    height: 02px;
+
+    background-color: #707C97;
+}
+#messageHere{
+    position: absolute;
+    top: 677px;
+    left: 80px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: bold;
+    font-size: 10px;
+    color: #707C97;
+}
+#smileFace{
+    position: absolute;
+    top: 690px;
+    left: 370px;
+
+    width: 17px;
+    height: 17px;
+}
+
+#sendIcon{
+    position: absolute;
+    top: 685px;
+    left: 405px;
+
+    width: 30px;
+    height: 30px;
+    background-color: #098caa;
+    border-radius: 50px;
+}
+#send{
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+
+#typePlus{
+    position: absolute;
+    top: 685px;
+    left: 25px;
+
+    width: 25px;
+    height: 25px;
+    background-color: #098caa;
+    border-radius: 50px;
+}
+#plus2{
+    position: absolute;
+
+    width: 24px;
+    height: 24px;
+}
+
+#anexarArquivo{
+    position: absolute;
+    top: 650px;
+    left: 25px;
+
+    width: 25px;
+    height: 25px;
+    background-color: #098caa;
+    border-radius: 50px;
+}
+#arquivo{
+    position: absolute;
+    top: 2px;
+    left: 3px;
+
+    width: 20px;
+    height: 20px;
+}
+
+#anexarImagem{
+    position: absolute;
+    top: 615px;
+    left: 25px;
+
+    width: 25px;
+    height: 25px;
+    background-color: #098caa;
+    border-radius: 50px;
+}
+#imagem{
+    position: absolute;
+    top: 2px;
+    left: 3px;
+
+    width: 20px;
+    height: 20px;
+}
+
+#anexarVideo{
+    position: absolute;
+    top: 580px;
+    left: 25px;
+
+    width: 25px;
+    height: 25px;
+    background-color: #098caa;
+    border-radius: 50px;
+}
+#videoAnexo{
+    position: absolute;
+    top: 2px;
+    left: 3px;
+
+    width: 20px;
+    height: 20px;
+}
